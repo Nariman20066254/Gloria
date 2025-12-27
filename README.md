@@ -87,3 +87,11 @@ pip install -r requirements.txt
 ```text
 python main.py
 ```
+PyAudio не устанавливается
+
+Симптом: ModuleNotFoundError: No module named 'pyaudio'
+Решение:
+
+Windows: скачайте ```.whl ``` и установите через ```.pip install путь_к_файлу.whl.```.
+
+Linux: ```.sudo apt-get install portaudio19-dev python3-pyaudio.```.
