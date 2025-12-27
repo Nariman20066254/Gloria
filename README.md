@@ -75,12 +75,15 @@ g4f (опционально для работы с OpenAI API)
 Как запустить
 
 Установите зависимости:
-
+```text
 pip install -r requirements.txt
+```
 
 
 Скачайте модель Vosk для распознавания речи (например, model_small)
 
 Запустите main.py:
 
+```text
 python main.py
+```
